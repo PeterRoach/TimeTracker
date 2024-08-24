@@ -217,4 +217,3 @@ GO
 SELECT * FROM tt_user;
 SELECT * FROM clock_entry;
 SELECT * FROM task_entry;
-EXECUTE uspSelectUserPasswordData 'peter';

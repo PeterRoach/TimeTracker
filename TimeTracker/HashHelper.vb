@@ -2,9 +2,9 @@
 
 Module HashHelper
 
-    Private Const SaltSize% = 16
-    Private Const HashSize% = 20
-    Private Const Iterations% = 10000
+    Private Const SaltSize% = 32
+    Private Const HashSize% = 32
+    Private Const Iterations% = 10256
 
     Public Function GenerateSalt() As String
 
